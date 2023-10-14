@@ -1,0 +1,2 @@
+Esse é um projeto dos alunos Caio Cesa Silva Pena, Doglas Keith Arakaki e Thiago Araujo Silva da Turma de DSM da Fatec Zona leste.
+O objetivo do nosso projeto foi criar um site para o restaurante Baratie mostrando um pouco da história do restaurante, a equipe, cardápio, localização e contato, para assim qualquer um, não somente os piratas,conseguirem apreciar uma boa refeição de frutos do mar preparados pelos melhores cozinheiros do East Blue.
