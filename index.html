@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="pt-br">
 <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Projeto, Desenvolvimento Web, Fatec ZL"
+    <meta name="description" content="Página do restaurante do Sanji">
+
     <title>Página Inicial - Baratie</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             background-color: lightskyblue;
             margin: 0;
             padding: 0;
@@ -44,6 +51,28 @@
             background-color: lightskyblue;
         }
 
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .team-member-description {
+            flex: 1;
+        }
+
+        .team-member-name {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
         h2 {
             font-size: 1.5rem;
         }
@@ -72,8 +101,8 @@
     </nav>
 
     <section>
-        <h2>Nossa História</h2>
-        <p>Baratie, é um Restaurante que fica em alto mar, na região de Sambas no East Blue, e foi fundado e é dirigido por Zeff, um antigo pirata.</p>
+        <h2>Sobre</h2>
+        <p>Baratie sempre foi um barco que me chamou muita atenção, pois assim como os outros, ele possui uma ótima infraestrutura e foi muito bem elaborado. Sua beleza já começa em sua proa, onde o barco foi feito com uma proa em forma de um peixe branco, com boca laranja e parte da barriga até o rabo também de cor laranja.Possuindo quatros andares, ele é um barco equipado com tudo que um restaurante merece, onde no seu primeiro andar encontramos a parte do restaurante que acomoda os clientes, com mesas organizadas e garçons para atender os pedidos.Foi fundado e é dirigido por Zeff, um antigo pirata.</p>
     </section>
 
     <section>
@@ -82,10 +111,60 @@
     </section>
 
     <section>
-        <h2>Localização</h2>
-        <p>Estamos localizados no coração da cidade, proporcionando fácil acesso a todos os amantes da culinária do mar e fãs de One Piece. Venha nos visitar e desfrute de uma refeição inesquecível no Baratie!</p>
+            <div class="team-member">
+            <img src="./images/sanji.jpg" alt="Membro da Equipe 1">
+            <div class="team-member-description">
+                <div class="team-member-name">Chef Sanji Vinsmoke</div>
+                <div class="team-member-role">Chefe Executivo</div>
+                <p class="team-member-bio">Sanji é um renomado chef especializado em culinária de frutos do mar. Ele é apaixonado por criar pratos excepcionais e deliciosos, inspirados pela sua experiência em alto mar.</p>
+            </div>
+        </div>
+
+    
+    </section>
+    <section>
+        <div class="team-member">
+        <img src="./images/bobesponja.jpg" alt="Membro da Equipe 2">
+        <div class="team-member-description">
+            <div class="team-member-name">Bob Esponja</div>
+            <div class="team-member-role">Mestre Cuca</div>
+            <p class="team-member-bio">Bob trabalhava como cozinheiro no "Krusty Krab" um dos principais restaurantes de fast-food da região.Mas devido a morte de seu amigo Patrick Estrela decidiu abandonar seu antigo emprego e se juntar a Zeff e Sanji.</p>
+        </div>
+    </div>
+    <section>
+        <h2>Depoimentos dos Clientes</h2>
+
+        <div class="testimonial">
+            <div class="testimonial-text">
+                <p>"Amo a comida do Sanji,poderia comer tudo que ele faz pra sempre!"</p>
+                <p class="testimonial-author">- Monkey D. Luffy</p>
+            </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-text">
+                    <p>"O sobrancelha enrolada é um cozinheiro idiota mas faz um bom trabalho"</p>
+                    <p class="testimonial-author">- Roronoa Zoro</p>
+                </div>
+                </div>       
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"O Sanji é um tarado mas a comida dele é muito boa, mas eu gosto mesmo é do mestre cuca bonitão (Bob Esponja)"</p>
+                        <p class="testimonial-author">- Senhorita Nami</p>
+                    </div>
+                    </div>
     </section>
 
+</section>
+    <section>
+        <h2>Localização</h2>
+        <p>Baratie, é um Restaurante que fica em alto mar, na região de Sambas no East Blue. Venha nos visitar e desfrute de uma refeição inesquecível!</p>
+    </section>
+    
+    <audio controls autoplay>
+        <source src="./audio/SaveTube.io - Party At Baratie _ One Piece _ Official Soundtrack _ Netflix (128 kbps).mp3" type="audio/mpeg">
+        Seu navegador não suporta a reprodução de áudio.
+      </audio>
+      
     <footer>
         <p>&copy; 2023 Restaurante Baratie</p>
     </footer>
